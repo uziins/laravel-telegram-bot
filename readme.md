@@ -1,4 +1,4 @@
-# LaravelTelegramBot
+# Laravel Telegram Bot
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -8,10 +8,25 @@
 Install this package through Composer. Run this command in your project's terminal:
 
 ``` bash
-composer require php-telegram-bot/laravel
+composer require uziins/laravel-telegram-bot
 ```
 ## Usage
 For further basic configuration of this Laravel package you do not need to create any configuration files.
+
+Database migration
+``` bash
+php artisan migrate
+```
+
+Publish config file
+``` bash
+php artisan vendor:publish --tag="telegram-config"
+```
+
+Publish routes file
+``` bash
+php artisan vendor:publish --tag="telegram-routes"
+```
 
 Artisan terminal commands for the Webhook usage (remember, that you need an HTTPS server for it):
 ``` bash

@@ -1,5 +1,5 @@
 {
-    "name": "php-telegram-bot/laravel",
+    "name": "uziins/laravel-telegram-bot",
     "description": "Integrates PHP Telegram Bot into Laravel.",
     "license": "MIT",
     "authors": [
@@ -13,9 +13,15 @@
             "name": "Tii",
             "email": "mail@tii.one",
             "role": "Developer"
+        },
+        {
+            "name": "Fauzi NS",
+            "email": "mail@iluzi.id",
+            "role": "Developer",
+            "homepage": "https://iluzi.id"
         }
     ],
-    "homepage": "https://github.com/php-telegram-bot/laravel",
+    "homepage": "https://github.com/uziins/laravel-telegram-bot",
     "keywords": ["laravel", "telegram", "bot"],
     "require": {
         "illuminate/support": "~7|~8|~9",
